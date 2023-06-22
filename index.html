@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"> </script>
+    
+    <title>Ta-te-ti</title>
+</head>
+    <body style="background-color: aquamarine; align-items: center;">
+    
+    <h1 style="text-align: center;">JUEGO DE TA TE TI CON TENSOR FLOWJS</h1>
+    
+        <table style="width:50px; height: 50px; margin-left: 370px;">
+            <tr>
+                <td><input id="1" ></td>
+                <td><input id="2" ></td>
+                <td><input id="3" ></td>
+            </tr>
+
+            <tr>
+                <td><input id="4" ></td>
+                <td><input id="5" ></td>
+                <td><input id="6" ></td>
+            </tr>
+
+            <tr>
+                <td><input id="7" ></td>
+                <td><input id="8" ></td>
+                <td><input id="9" ></td>
+            </tr>
+        </table>
+        <br>
+        <br>
+
+        <button style="margin-left: 600px;" id="botonEntrenar" onclick="juegaAI()">Juega PC</button>
+        
+        <br>
+        <br>
+        <div id="fin" style="background-color: chartreuse; align-items: center; text-align: center; height: 50px; padding-top: 20px;" hidden="true"></div>
+
+        <script src="index.js"></script>
+
+    </body>
+</html>
